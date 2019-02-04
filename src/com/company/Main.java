@@ -22,9 +22,10 @@ public class Main {
             }
         }
 
+        System.out.print("Lockers are remained opened: ");
         for (int i = 0; i < arr.length ; i++) {
             if(arr[i]){
-                System.out.println(i + " ");
+                System.out.print((i+1) + " ");
             }
         }
     }
